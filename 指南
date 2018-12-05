@@ -1,0 +1,8 @@
+使用对象字面量创建一个对象：
+           var obj = {};
+           var obj2 = {
+             name : "a";
+             age : 14;
+             test: { name : "b" }
+             sayName: function(){ console.log('ling'); }
+             }
