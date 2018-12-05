@@ -12,3 +12,6 @@
       test: { name : "b" },
       sayName: function(){ console.log('ling'); }
       }；
+
+
+alert() 会自动调用toString()方法。
