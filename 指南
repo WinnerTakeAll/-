@@ -1,10 +1,14 @@
-创建Object的两种方法：
+创建Object对象的两种方法：
 1. var person = new Object();
 2. 对象字面量：
-    var obj = {};
+    var obj = {
+      name : "a",
+      age : 14
+    };
+    
     var obj2 = {
-      name : "a";
-      age : 14;
-      test: { name : "b" }
+      name : "a",
+      age : 14,
+      test: { name : "b" },
       sayName: function(){ console.log('ling'); }
       }；
