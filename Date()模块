@@ -1,0 +1,11 @@
+var date = new Date();
+console.log(date); //输出   Wed Dec 05 2018 14:54:57 GMT+0800 (中国标准时间)
+date.getDate();    //获取日 1-31
+date.getDay();     //获取星期  0-6  0代表星期天
+date.getMonth();   //获取月    0-11
+date.getFullYear();  //获取完整年份
+date.getHours()     //获取小时数
+date.getMinutes()
+date.getSeconds()
+date.getMilliseconds()
+getTime()          //返回累计毫秒数（从1970/1/1午夜）
