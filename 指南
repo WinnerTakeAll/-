@@ -1,8 +1,10 @@
-使用对象字面量创建一个对象：
-           var obj = {};
-           var obj2 = {
-             name : "a";
-             age : 14;
-             test: { name : "b" }
-             sayName: function(){ console.log('ling'); }
-             }
+创建Object的两种方法：
+1. var person = new Object();
+2. 对象字面量：
+    var obj = {};
+    var obj2 = {
+      name : "a";
+      age : 14;
+      test: { name : "b" }
+      sayName: function(){ console.log('ling'); }
+      }；
